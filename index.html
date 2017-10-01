@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Login</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+        <!-- particles js files -->
+        <script src="particles.min.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded sucessfully');
+            });
+        </script>
+        <!-- end -->
+
+        <!-- particles js body -->
+        <div id="particles-js"></div>
+        <!-- end -->
+
+        <!-- form starts -->
+        <div  class="container">
+                <div class="row">
+                    <div class="form_bg">
+                        <form>
+                             <h2 class="text-center head-logo">Login Page</h2>
+                            <br/>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="userid" placeholder="User id">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="pwd" placeholder="Password">
+                            
+                                </div>
+                                <br/>
+                               <div class="align-center">
+                            <button type="submit" class="btn btn-default" id="login">Login</button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <!-- end -->
+
+    <!-- Bootstrap js CDN     -->
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+</body>
+</html>
